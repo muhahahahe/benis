@@ -1,0 +1,46 @@
+{
+  "id": "benis",
+  "title": "Benis",
+  "description": "The Benis system for FoundryVTT!",
+  "authors": [
+    {
+      "name": "muhahahahe"
+    }
+  ],
+  "url": "Replace this with a link to your public repository",
+  "license": "LICENSE.txt",
+  "readme": "README.md",
+  "bugs": "Replace this with a link to file issues or tickets",
+  "changelog": "CHANGELOG.md",
+  "media": [
+    {
+      "type": "setup",
+      "url": "systems/benis/assets/anvil-impact.png",
+      "thumbnail": "systems/benis/assets/anvil-impact.png"
+    }
+  ],
+  "version": "0.0.1",
+  "compatibility": {
+    "minimum": 11,
+    "verified": "11.315"
+  },
+  "esmodules": ["module/benis.mjs"],
+  "styles": ["css/benis.css"],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    }
+  ],
+  "packs": [],
+  "packFolders": [],
+  "socket": false,
+  "manifest": "https://github.com/muhahahahe/benis/raw/main/system.json",
+  "download": "https://github.com/muhahahahe/benis/raw/main/benis.zip",
+  "background": "systems/benis/assets/anvil-impact.png",
+  "gridDistance": 5,
+  "gridUnits": "ft",
+  "primaryTokenAttribute": "attrition",
+  "secondaryTokenAttribute": "tension"
+}
